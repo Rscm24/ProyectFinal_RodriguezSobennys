@@ -26,11 +26,16 @@
             ],
             "styles": [
               "src/styles.css",
-              "ProyectFinal_RodriguezSobennys/node_modules/bootstrap/css/bootstrap.css"
-            ],
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              ],
             "scripts": [
-              "ProyectFinal_RodriguezSobennys/node_modules/@angular/cli/bin/bootstrap.js"
+              "node_modules/jquery/dist/jquery.min.js",
+
+              "node_modules/@popperjs/core/dist/umd/popper.min.js",
+          
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
+
           },
           "configurations": {
             "production": {
