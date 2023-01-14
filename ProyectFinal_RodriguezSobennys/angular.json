@@ -25,9 +25,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "ProyectFinal_RodriguezSobennys/node_modules/bootstrap/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": [
+              "ProyectFinal_RodriguezSobennys/node_modules/@angular/cli/bin/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "0c07ca00-7399-41a4-ae0c-c9044f72317c"
   }
 }
